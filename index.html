@@ -214,8 +214,8 @@
            alt="Layered taxonomy of generative AI for biomolecule"
            style="width: 100%; border-radius: 5px;">
       <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
-        A layered taxonomy organizing generative AI for biology from biological problem spaces
-        through core paradigms to unified architectures, foundation models, and agent-based systems.
+        <b>Figure 1.</b> A layered taxonomy of generative AI for biology.
+        Our perspective organizes the field from biological problem spaces and core architectural building blocks, through major generative paradigms such as autoregressive, masked/bidirectional, and diffusion/flow matching, to unified cross-paradigm hybrids, multimodal biological foundation models, and tool-augmented agentic systems for closed-loop discovery.
       </h2>
     </div>
   </div>
@@ -290,30 +290,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Rapid advances in generative artificial intelligence have revolutionized biological
-            modeling across domains such as protein, genetics, and single-cell. However, existing
-            works often organize applications by molecule types or specific research tasks,
-            overlooking the methodological convergence and cross-modal innovations. This paper aims
-            to present a unified methodological perspective that highlights the fundamental technical
-            commonalities across biological modalities.
-          </p>
-          <p>
-            We systematically organize recent advances in generative modeling for biology through
-            the lens of core machine learning paradigms, from language models (LMs) and diffusion
-            models to their emerging hybrid architectures. Key findings reveal how techniques
-            initially developed for one molecular type (e.g., protein design) can be effectively
-            transferred to others (e.g., RNA engineering), and identify the convergence trend where
-            discrete diffusion models and iterative language models represent different facets of a
-            unified generative framework.
-          </p>
-          <p>
-            This work covers the evolution from domain-specific models to multi-modal biological
-            foundation models and agent-based systems. By emphasizing methodological connections
-            rather than applications, this work aims to accelerate cross-domain innovation and make
-            the field more accessible to the broader machine learning community. We identify
-            promising research directions where successful techniques in one biological domain
-            remain unexplored in others, offering a roadmap for future advances in generative
-            biology.
+            Rapid advances in generative artificial intelligence have revolutionized biological modeling across domains such as protein, genetics, and single-cell. 
+            However, existing works often organize applications by molecule types or specific research tasks, overlooking the methodological convergence and cross-modal innovations. 
+            This paper aims to present a unified methodological perspective that highlights the fundamental technical commonalities across biological modalities. 
+            We systematically organize recent advances in generative modeling for biology through the lens of core machine learning paradigms, from language models (LMs) and diffusion models to their emerging hybrid architectures. 
+            Our work reveals how techniques initially developed for one molecular type (e.g., protein design) can be effectively transferred to others (e.g., RNA engineering), and identifies the convergence trend where discrete diffusion models and iterative language models represent different facets of a unified generative framework. 
+            We cover the evolution from domain-specific models to multi-modal biological foundation models and agent-based systems. 
+            By emphasizing methodological connections rather than applications, this paper aims to accelerate cross-domain innovation and make the field more accessible to the broader machine learning community. 
+            We conclude by identifying promising research directions where successful techniques in one biological domain remain unexplored in others, offering a roadmap for future advances in generative biology. 
           </p>
         </div>
       </div>
@@ -352,10 +336,7 @@
           <img src="./static/images/fig2.png"
                alt="Language-modeling pipelines for biomolecular generation">
           <p class="figure-caption">
-            <b>Figure 2.</b> An overview of language-modeling pipelines for biological generation,
-            illustrating how diverse biological inputs are tokenized, processed by a Transformer
-            backbone, and trained under either masked bidirectional-context modeling or autoregressive
-            causal modeling objectives.
+            <b>Figure 2.</b> An overview of language-modeling pipelines for biological generation, illustrating how diverse biological inputs are tokenized, processed by a Transformer backbone, and trained under either masked bidirectional-context modeling or autoregressive causal modeling objectives.
           </p>
         </div>
       </div>
@@ -369,9 +350,7 @@
           <img src="./static/images/fig3.png"
                alt="Forward-reverse diffusion pipeline for biomolecular generation">
           <p class="figure-caption">
-            <b>Figure 3.</b> Overview of the forward-reverse diffusion pipeline for biological
-            generation, showing the forward noising process and the learned reverse denoising
-            process, in both discrete (token-level) and continuous (geometry-level) formulations.
+            <b>Figure 3.</b> Overview of the forward-reverse diffusion pipeline for biological generation, showing the forward noising process and the learned reverse denoising process, in both discrete (token-level) and continuous (geometry-level) formulations.
           </p>
         </div>
       </div>
@@ -385,11 +364,7 @@
           <img src="./static/images/fig4.png"
                alt="Unified generative-model view">
           <p class="figure-caption">
-            <b>Figure 4.</b> A unified generative-model view integrating classic architectures,
-            language models, and diffusion models. This illustrates the perspective that iterative
-            language modeling can be viewed as tokenized diffusion, where training and inference
-            correspond to iterative denoising, supported by shared backbones and modality-specific
-            output heads.
+            <b>Figure 4.</b> A unified generative-model view integrating classic architectures, language models, and diffusion models. This illustrates the perspective that iterative language modeling can be viewed as tokenized diffusion, where training and inference correspond to iterative denoising, supported by shared backbones and modality-specific (discrete/continuous) output heads.
           </p>
         </div>
       </div>
@@ -403,10 +378,7 @@
           <img src="./static/images/fig5.png"
                alt="Multi-modal foundation model for biomolecules">
           <p class="figure-caption">
-            <b>Figure 5.</b> A multi-modal foundation model for biomolecules, where heterogeneous
-            inputs are embedded and fused into a backbone to support diverse downstream design tasks
-            such as binder/vaccine design, motif scaffolding, structure generation, and inverse
-            folding.
+            <b>Figure 5.</b> A multi-modal foundation model for biomolecules, where heterogeneous inputs are embedded and fused into a backbone to support diverse downstream design tasks such as binder/vaccine design, motif scaffolding, structure generation, and inverse folding.
           </p>
         </div>
       </div>
@@ -420,9 +392,7 @@
           <img src="./static/images/fig6.png"
                alt="Biological agent paradigm">
           <p class="figure-caption">
-            <b>Figure 6.</b> The biological agent paradigm that couples hypothesis generation with
-            tool use/creation and laboratory automation, enabling iterative refinement from
-            computational reasoning to experimental validation.
+            <b>Figure 6.</b> The biological agent paradigm that couples hypothesis generation with tool use/creation and laboratory automation, enabling iterative refinement from computational reasoning to experimental validation.
           </p>
         </div>
       </div>
