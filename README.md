@@ -1,8 +1,8 @@
-# Generative AI for Biomolecule
+# Generative AI for Biology
 
 This is the repository for the project page of the paper:
 
-**Generative Artificial Intelligence for Biomolecule: Toward Unifying Models, Algorithms, and Modalities**
+**Generative Artificial Intelligence for Biology: Toward Unifying Models, Algorithms, and Modalities**
 
 [Paper](https://chemrxiv.org/doi/full/10.26434/chemrxiv.10002066/v1) | [Project Page](https://divelab.github.io/Survey_GenAI_Bio/)
 
